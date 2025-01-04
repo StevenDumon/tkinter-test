@@ -36,16 +36,11 @@ def show_frames():
     # Repeat the same process after every 10 seconds
     label.after(10, show_frames)
 
-def take_pic():
-    file_name = f"{label.frame_num}.png"
-    imagetk = label.imgtk
-    imgpil = ImageTk.getimage(imagetk)
-    imgpil.save(file_name, "PNG")
-    imgpil.close()
 
 # Button click actions
 def button_1_click():
-    take_pic()
+    print("Test")
+    #take_pic()
 
 #def button_2_click(number):
     #e.insert(0,"number")
