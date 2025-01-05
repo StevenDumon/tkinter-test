@@ -8,6 +8,7 @@ root = Tk()
 def myClick():
     myLabel = Label(root, text="Button is clicked.")
     myLabel.pack()
+    myButton.config(bg="green")
 
 # myButton = Button(root, text="Click me", state=DISABLED)
 # change size, wider
